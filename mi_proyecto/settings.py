@@ -24,7 +24,7 @@ SECRET_KEY = 'django-insecure-m!*#@c1(la$ugnzoo^+8e+n4fc^_0c9w-2qa8^ph+(ah9d-^le
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
+ALLOWED_HOSTS = ['aplicacion-web-transportesantos.onrender.com', '*']
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 
